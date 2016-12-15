@@ -4,6 +4,8 @@
 [![PyPI](https://img.shields.io/pypi/v/mycli.svg?style=plastic)](https://pypi.python.org/pypi/mycli)
 [![Join the chat at https://gitter.im/dbcli/mycli](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dbcli/mycli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+#### Note: This is a fork that fixes [Issue 202](https://github.com/dbcli/mycli/issues/202). Mycli is great, but the reconnect prompt is fucking stupid. Now it just reconnects and re-execute the query --- same as `mysql` client.
+
 A command line client for MySQL that can do auto-completion and syntax highlighting.
 
 HomePage: [http://mycli.net](http://mycli.net)
